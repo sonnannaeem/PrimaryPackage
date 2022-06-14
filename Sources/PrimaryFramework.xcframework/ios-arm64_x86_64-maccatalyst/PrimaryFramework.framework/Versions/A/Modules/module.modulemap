@@ -1,0 +1,11 @@
+framework module PrimaryFramework {
+  umbrella header "PrimaryFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module PrimaryFramework.Swift {
+    header "PrimaryFramework-Swift.h"
+    requires objc
+}
